@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.20.0.final using JasperReports Library version 6.20.0-2bc7ab61c56f459e8176eb05c7705e145cd400ad  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="kisti_report_01" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="5e579899-5bfd-40c8-a5a5-c84476934c63">
+	<property name="com.jaspersoft.studio.data.sql.tables" value=""/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="KISTI"/>
+	<property name="com.jaspersoft.studio.data.sql.SQLQueryDesigner.sash.w1" value="477"/>
+	<property name="com.jaspersoft.studio.data.sql.SQLQueryDesigner.sash.w2" value="523"/>
+	<style name="Table_TH" mode="Opaque" backcolor="#D4D4D4">
+		<box>
+			<pen lineWidth="0.5" lineColor="#595959"/>
+			<topPen lineWidth="0.5" lineColor="#595959"/>
+			<leftPen lineWidth="0.5" lineColor="#595959"/>
+			<bottomPen lineWidth="0.5" lineColor="#595959"/>
+			<rightPen lineWidth="0.5" lineColor="#595959"/>
+		</box>
+	</style>
+	<style name="Table_CH" mode="Opaque" backcolor="#D4D4D4">
+		<box>
+			<pen lineWidth="0.5" lineColor="#595959"/>
+			<topPen lineWidth="0.5" lineColor="#595959"/>
+			<leftPen lineWidth="0.5" lineColor="#595959"/>
+			<bottomPen lineWidth="0.5" lineColor="#595959"/>
+			<rightPen lineWidth="0.5" lineColor="#595959"/>
+		</box>
+	</style>
+	<style name="Table_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#595959"/>
+			<topPen lineWidth="0.5" lineColor="#595959"/>
+			<leftPen lineWidth="0.5" lineColor="#595959"/>
+			<bottomPen lineWidth="0.5" lineColor="#595959"/>
+			<rightPen lineWidth="0.5" lineColor="#595959"/>
+		</box>
+	</style>
+	<subDataset name="ds_list_01" uuid="9400ad08-7c2f-4c78-a8f2-5b907c663934">
+		<property name="com.jaspersoft.studio.data.sql.tables">
+			<![CDATA[a2lzdGlfYXBleC50YmxfbWVtYmVyICwxNSwxNSw5YTZiOWM5YS03NDQ4LTRkMmMtOTQ3NS1iZmEw
+ZTBkYTQ3NTY7]]>
+		</property>
+		<property name="com.jaspersoft.studio.data.defaultdataadapter" value="KISTI"/>
+		<queryString language="SQL">
+			<![CDATA[SELECT * 
+FROM kisti_apex.tbl_member limit 10]]>
+		</queryString>
+		<field name="id" class="java.lang.Integer">
+			<property name="com.jaspersoft.studio.field.name" value="id"/>
+			<property name="com.jaspersoft.studio.field.label" value="id"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="tbl_member"/>
+		</field>
+		<field name="login_id" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="login_id"/>
+			<property name="com.jaspersoft.studio.field.label" value="login_id"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="tbl_member"/>
+		</field>
+		<field name="login_password" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="login_password"/>
+			<property name="com.jaspersoft.studio.field.label" value="login_password"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="tbl_member"/>
+		</field>
+		<field name="user_name" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="user_name"/>
+			<property name="com.jaspersoft.studio.field.label" value="user_name"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="tbl_member"/>
+		</field>
+		<field name="is_used" class="java.lang.Boolean">
+			<property name="com.jaspersoft.studio.field.name" value="is_used"/>
+			<property name="com.jaspersoft.studio.field.label" value="is_used"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="tbl_member"/>
+		</field>
+		<field name="is_admin" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="is_admin"/>
+			<property name="com.jaspersoft.studio.field.label" value="is_admin"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="tbl_member"/>
+		</field>
+		<field name="reg_date" class="java.time.LocalDateTime">
+			<property name="com.jaspersoft.studio.field.name" value="reg_date"/>
+			<property name="com.jaspersoft.studio.field.label" value="reg_date"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="tbl_member"/>
+		</field>
+	</subDataset>
+	<queryString language="SQL">
+		<![CDATA[SELECT * FROM kisti_apex.tbl_member limit 1]]>
+	</queryString>
+	<title>
+		<band height="69" splitType="Stretch">
+			<staticText>
+				<reportElement mode="Transparent" x="0" y="0" width="555" height="60" backcolor="#CCCCCC" uuid="d0c682c2-7f44-4c42-b2d3-4b936ae87d2e"/>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle" markup="none">
+					<font fontName="나눔고딕" size="36" isBold="true" pdfFontName="HYGoThic-Medium" pdfEncoding="UniKS-UCS2-H" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[사용자 정보]]></text>
+			</staticText>
+		</band>
+	</title>
+	<detail>
+		<band height="727" splitType="Stretch">
+			<componentElement>
+				<reportElement x="0" y="13" width="555" height="60" uuid="207cef10-e768-4f03-8590-f9681b4beb2a">
+					<property name="com.jaspersoft.studio.layout" value="com.jaspersoft.studio.editor.layout.VerticalRowLayout"/>
+					<property name="com.jaspersoft.studio.table.style.table_header" value="Table_TH"/>
+					<property name="com.jaspersoft.studio.table.style.column_header" value="Table_CH"/>
+					<property name="com.jaspersoft.studio.table.style.detail" value="Table_TD"/>
+				</reportElement>
+				<jr:table xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd" whenNoDataType="NoDataCell">
+					<datasetRun subDataset="ds_list_01" uuid="43ecee44-28e7-4079-ae99-5a5622e83677">
+						<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+					</datasetRun>
+					<jr:column width="79" uuid="8b5be0e6-a1ad-4007-bdf5-ec1c83290674">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column1"/>
+						<jr:columnHeader style="Table_CH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="79" height="30" uuid="71ff3ce8-8f54-4e6d-a469-d3ab0d95f1e1"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="나눔고딕 ExtraBold"/>
+								</textElement>
+								<text><![CDATA[ID]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="Table_TD" height="30">
+							<textField>
+								<reportElement x="0" y="0" width="79" height="30" uuid="27f65410-6b80-4cd2-befe-1eae5c9d44e2"/>
+								<box topPadding="1" leftPadding="5" bottomPadding="5" rightPadding="1"/>
+								<textElement textAlignment="Left" verticalAlignment="Middle">
+									<font fontName="나눔고딕"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{id}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="80" uuid="bc924d50-9d07-4390-918d-b2554ef2e61c">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column2"/>
+						<jr:columnHeader style="Table_CH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="80" height="30" uuid="fd8c504e-fb26-4527-b5e3-c257d2e29fef"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="나눔고딕 ExtraBold"/>
+								</textElement>
+								<text><![CDATA[LOGIN ID]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="Table_TD" height="30">
+							<textField>
+								<reportElement x="0" y="0" width="80" height="30" uuid="8b45d794-cb8d-4382-8777-70ddfdd86d5f"/>
+								<box topPadding="1" leftPadding="5" bottomPadding="5" rightPadding="1"/>
+								<textElement textAlignment="Left" verticalAlignment="Middle">
+									<font fontName="나눔고딕"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{login_id}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="80" uuid="4e438419-22bd-4dfe-bc57-bda2d88c8947">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column3"/>
+						<jr:columnHeader style="Table_CH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="80" height="30" uuid="81fd096f-083b-4566-ad97-aea725cabca6"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="나눔고딕 ExtraBold"/>
+								</textElement>
+								<text><![CDATA[비밀번호]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="Table_TD" height="30">
+							<textField>
+								<reportElement x="0" y="0" width="80" height="30" uuid="498c5b2b-647a-43c5-84ba-724c6df4dddb"/>
+								<box topPadding="1" leftPadding="5" bottomPadding="5" rightPadding="1"/>
+								<textElement textAlignment="Left" verticalAlignment="Middle">
+									<font fontName="나눔고딕"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{login_password}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="80" uuid="61da0202-a4c0-460e-a0af-ec46a6fbd5ae">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column4"/>
+						<jr:columnHeader style="Table_CH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="80" height="30" uuid="3480953f-53ca-4fa3-bc0b-2de40d7ba878"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="나눔고딕 ExtraBold"/>
+								</textElement>
+								<text><![CDATA[사용자]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="Table_TD" height="30">
+							<textField>
+								<reportElement x="0" y="0" width="80" height="30" uuid="e3391bbd-4d79-4b0e-a8f5-5e502cc15de9"/>
+								<box topPadding="1" leftPadding="5" bottomPadding="5" rightPadding="1"/>
+								<textElement textAlignment="Left" verticalAlignment="Middle">
+									<font fontName="나눔고딕"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{user_name}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="80" uuid="d7fdfa11-1c92-4666-810c-dde49ed536be">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column5"/>
+						<jr:columnHeader style="Table_CH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="80" height="30" uuid="c1c7a973-0d99-4237-baaf-b6050da0295c"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="나눔고딕 ExtraBold"/>
+								</textElement>
+								<text><![CDATA[사용여부]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="Table_TD" height="30">
+							<textField>
+								<reportElement x="0" y="0" width="80" height="30" uuid="31c17a81-7d34-4894-8c98-110bd03ec6dd"/>
+								<box topPadding="1" leftPadding="5" bottomPadding="5" rightPadding="1"/>
+								<textElement textAlignment="Left" verticalAlignment="Middle">
+									<font fontName="나눔고딕"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{is_used}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="79" uuid="c8f5e5e8-2c68-433b-8f7e-4e7087f77c49">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column6"/>
+						<jr:columnHeader style="Table_CH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="79" height="30" uuid="b1eba6f5-9479-4b4a-b65d-533108cf5937"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="나눔고딕 ExtraBold"/>
+								</textElement>
+								<text><![CDATA[관리자 유무]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="Table_TD" height="30">
+							<textField>
+								<reportElement x="0" y="0" width="79" height="30" uuid="34b25737-683f-48ce-bfa6-d89e455135de"/>
+								<box topPadding="1" leftPadding="5" bottomPadding="5" rightPadding="1"/>
+								<textElement textAlignment="Left" verticalAlignment="Middle">
+									<font fontName="나눔고딕"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{is_admin}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="80" uuid="caddcb60-19b2-46e0-8035-a079a96ba0b4">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column7"/>
+						<jr:columnHeader style="Table_CH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="80" height="30" uuid="f28eb922-5105-4868-a7a1-ef89bb05155e"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="나눔고딕 ExtraBold"/>
+								</textElement>
+								<text><![CDATA[등록일자]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="Table_TD" height="30">
+							<textField pattern="yyyy-MM-dd" isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="80" height="30" uuid="1f86477f-0111-4549-b2ff-2b7553338497"/>
+								<box topPadding="1" leftPadding="5" bottomPadding="5" rightPadding="1"/>
+								<textElement textAlignment="Left" verticalAlignment="Middle">
+									<font fontName="나눔고딕"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{reg_date}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+				</jr:table>
+			</componentElement>
+		</band>
+	</detail>
+</jasperReport>

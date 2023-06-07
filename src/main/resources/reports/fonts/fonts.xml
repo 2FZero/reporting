@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fontFamilies>
+    <fontFamily name="나눔고딕">
+        <normal><![CDATA[reports/fonts/nanumgothic/NanumGothic.ttf]]></normal>
+        <bold><![CDATA[reports/fonts/nanumgothic/NanumGothicBold.ttf]]></bold>
+        <pdfEncoding><![CDATA[Identity-H]]></pdfEncoding>
+        <pdfEmbedded><![CDATA[true]]></pdfEmbedded>
+    </fontFamily>
+    <fontFamily name="나눔고딕체">
+        <normal><![CDATA[reports/fonts/nanumgothic/NanumGothic.ttf]]></normal>
+        <bold><![CDATA[reports/fonts/nanumgothic/NanumGothicBold.ttf]]></bold>
+        <pdfEncoding><![CDATA[Identity-H]]></pdfEncoding>
+        <pdfEmbedded><![CDATA[true]]></pdfEmbedded>
+    </fontFamily>
+    <fontFamily name="나눔스퀘어">
+        <normal><![CDATA[reports/fonts/nanumsquare/NanumSquareR.ttf]]></normal>
+        <bold><![CDATA[reports/fonts/nanumsquare/NanumSquareB.ttf]]></bold>
+        <pdfEncoding><![CDATA[Identity-H]]></pdfEncoding>
+        <pdfEmbedded><![CDATA[true]]></pdfEmbedded>
+    </fontFamily>
+    <fontFamily name="나눔스퀘어체">
+        <normal><![CDATA[reports/fonts/nanumsquare/NanumSquareR.ttf]]></normal>
+        <bold><![CDATA[reports/fonts/nanumsquare/NanumSquareB.ttf]]></bold>
+        <pdfEncoding><![CDATA[Identity-H]]></pdfEncoding>
+        <pdfEmbedded><![CDATA[true]]></pdfEmbedded>
+    </fontFamily>
+</fontFamilies>
